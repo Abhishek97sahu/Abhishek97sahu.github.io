@@ -1,0 +1,78 @@
+.branding{
+  font-size:17px;
+}
+.showcase{
+  background:url('../img/as.jpg') no-repeat;
+  background-position: center;
+  height: 500px;
+  padding:140px 100px;
+  color:#fff;
+}
+.showcase h1{
+ font-size: 40px;
+ font-weight: 700;
+
+ text-transform: uppercase;
+
+}
+
+.showcase hr{
+  width:1200px;
+  margin:auto;
+  border-width: 4px;
+
+}
+
+
+.section{
+  padding:40px 0;
+  height:200px;
+}
+
+.section h2{
+  padding:0;
+  margin:0;
+  font-size: 20px;
+}
+
+.section p{
+  font-size: 15px;
+}
+.section .fa{
+  font-size:50px;
+}
+.section2{
+  padding:40px 0;
+  height:150px;
+}
+
+.section2 h2{
+  padding:0;
+  margin:0;
+  font-size: 30px;
+}
+
+
+.section2 .fa{
+  font-size:50px;
+}
+
+
+.section img{
+  width: 100%
+}
+
+@media only screen and(max-width:600px){
+  body{
+    margin-top:190px;
+  }
+  .showcase{
+    height:400px;
+    padding:60px 0;
+  }
+}
+.section5 img{
+  height:350px;
+  width:80%;
+  padding:10px 20px;
+}
